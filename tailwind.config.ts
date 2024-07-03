@@ -9,10 +9,29 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'bg-image': "url('/images/BG.png')",
       },
+      colors: {
+        primary: {
+          500: '#000000'
+        },
+        white: {
+          200: '#FFFFFF'
+        },
+        red: {
+          200: '#FF5454'
+        },
+        green: {
+          100: '#6DFFDC',
+          200: '#6DFF8B'
+        },
+        purple: {
+          100: '#9945FF'
+        },
+        blue: {
+          100: '#3980FF'
+        }
+      }
     },
   },
   plugins: [],
