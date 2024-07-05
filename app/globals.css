@@ -18,5 +18,5 @@ body {
 input {
   @apply border border-slate-100 rounded-lg px-6 py-3
 }::placeholder {
-  @apply text-slate-500
+  @apply text-slate-500 
 }
