@@ -38,3 +38,31 @@ th {
 td {
   @apply text-sm
 }
+
+tr:nth-child(1) td:nth-child(3), tr:nth-child(1) td:nth-child(4) {
+  @apply text-red-200
+}
+
+tr:nth-child(2) td:nth-child(3), tr:nth-child(2) td:nth-child(4) {
+  @apply text-red-200
+}
+
+tr:nth-child(3) td:nth-child(3), tr:nth-child(3) td:nth-child(4) {
+  @apply text-green-100
+}
+
+tr:nth-child(4) td:nth-child(3), tr:nth-child(4) td:nth-child(4) {
+  @apply text-[#666666]
+}
+
+tr:nth-child(5) td:nth-child(3), tr:nth-child(5) td:nth-child(4) {
+  @apply text-[#666666]
+}
+
+tr:nth-child(6) td:nth-child(3), tr:nth-child(6) td:nth-child(4) {
+  @apply text-[#666666]
+}
+
+tr:nth-child(7) td:nth-child(3), tr:nth-child(7) td:nth-child(4) {
+  @apply text-red-200
+}
