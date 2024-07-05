@@ -9,5 +9,6 @@ To run the application run: npm run dev
 
 ## Urls of endpoints
 
-'/api/assets/create-assets/'
-'/api/assets/'
+adding an asset: '/api/assets/create-assets/'
+
+get assets: '/api/assets/'
